@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Close All Apps
+Comment=Close every open application in one click
+Exec=closeall
+Icon=application-exit
+Terminal=false
+Categories=Utility;System;
+Keywords=close;quit;exit;cleanup;
+Actions=Pick;
+
+[Desktop Action Pick]
+Name=Choose what to close…
+Exec=closeall --gui
